@@ -304,7 +304,7 @@ nav{
     text-align: center;
     font-size: 56px;
     font-weight: 500;
-    font-variant: var(--rubik);
+    font-family: "Roboto", sans-serif;
     line-height: 62px;
     letter-spacing: -1px;
 }
@@ -314,20 +314,111 @@ nav{
     font-size: 16px;
     text-align: center;
     font-weight: 400;
-    font-variant: var(--rubik);
+    font-family: "Roboto", sans-serif;
     line-height: 24px;
     padding-top: 20px;
 }
 
-.why-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    gap: 38px;
+.features {
+  padding: 120px 6%;
 }
 
-.why-card{
-    background: linear-gradient(137.34deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
-    /* margin: 120px; */
-    margin: 120px 120px;
+.features-container {
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
 }
+
+
+
+.feature-card {
+  background: linear-gradient(
+    135deg,
+    rgba(60, 80, 255, 0.08),
+    rgba(255, 255, 255, 0.03)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  padding: 50px;
+  backdrop-filter: blur(20px);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Headings */
+
+.feature-card h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #CAD1E9;
+  margin-bottom: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Paragraph */
+
+.feature-card p {
+  font-size: 16px;
+  color: #AFB3CA;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  max-width: 480px;
+}
+
+/* Image */
+
+.feature-img img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+}
+
+
+.card-2 .feature-img {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+
+.card-2 .img-top {
+  max-width: 120px;
+  width: 100%;
+  align-self: flex-start; 
+}
+
+
+.card-2 .img-bottom {
+  max-width: 484px;
+  width: 100%;
+  align-self: flex-start; 
+}
+
+
+
+
+.full-width {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.full-width .feature-left {
+  flex: 1;
+}
+
+.full-width .feature-img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
