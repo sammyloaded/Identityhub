@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --rubik: "Rubik", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
+
+
+.header {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    height: 75px;
+    background: #1F2035;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 80px;
+    
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 500;
+  /* color: white; */
+}
+
+.nav-links a{
+    font-variant: var(--roboto);
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.nav-btn{
+    padding: 12px 24px;
+    box-shadow: #6337AE40;
+    border-radius: 10px;
+    border: 1px solid  #121212;
+    background: linear-gradient(2.45deg, #21223C 7.4%, #0B0B26 98.31%);
+    font-variant: var(--rubik);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+}
+
+.nav-btn:hover{
+    background-color: #B69EE0;
+}
+
+/* ===============================
+   HERO SECTION
+================================= */
+
+.hero {
+  background: #050b2d;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 50px 2%;
+}
+
+.hero-container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  width: 100%;
+}
+
+
+.hero-content {
+  flex: 1;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 90px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  line-height: 82px;
+  font-style: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #3aa0ff, #ff7ecb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-variant: var(--rubik);
+}
+
+.light-text {
+  color: #cfd3ff;
+  
+}
+
+.hero-content p {
+  color: #AFB3CA;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 520px;
+  margin-bottom: 32px;
+  margin-top: 28px;
+}
+
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  padding: 13px 24px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 600;
+ background: linear-gradient(90deg, #3aa0ff, #ff7ecb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #ff7ecb;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.5;
+}
+
+.btn-secondary {
+  padding: 14px 28px;
+  border-radius: 16px;
+  border: 1px solid #70717A;
+  text-decoration: none;
+  font-weight: 500;
+  color: #cfd3ff;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ===============================
+   RIGHT VISUAL SECTION
+================================= */
+
+.hero-visual {
+  flex: 1;
+  position: relative;
+  height: 600px;
+}
+
+/* ARC BACKGROUND (Linear Gradient) */
+.arc-bg {
+  position: absolute;
+  top: -100px;
+  right: -50px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 126, 203, 0.4),
+    rgba(58, 160, 255, 0.2),
+    transparent
+  );
+  filter: blur(60px);
+}
+
+/* Lock Image */
+.lock-img {
+  position: absolute;
+  right: 0;
+  top: 80px;
+  width: 350px;
+  z-index: 2;
+}
+
+/* Email Card Image */
+.email-img {
+  position: absolute;
+  right: 260px;
+  top: 200px;
+  width: 260px;
+  z-index: 3;
+}
+
+/* User Card Image */
+.user-img {
+  position: absolute;
+  right: 150px;
+  top: 380px;
+  width: 280px;
+  z-index: 3;
+}
+
+/* ==============================
+   WE REMOVE SECTION
+============================== */
+
+.wr {
+  background: #020721;
+  padding: 120px 6%;
+  overflow: hidden;
+}
+
+.wr-container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+
+.wr-content {
+  flex: 1;
+  max-width: 650px;
+}
+
+.wr-content h1 {
+  font-size: 64px;
+  font-variant: var(--rubik);
+  line-height: 62px;
+  letter-spacing: -1.5px;
+  font-weight: 700;
+  color: #CAD1E9;
+  margin-bottom: 16px;
+}
+
+.wr-text p {
+  color: #AFB3CA;
+  font-family: "Roboto", sans-serif;
+ font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  max-width: 520px;
+}
+
+
+.wr-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wr-img img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
