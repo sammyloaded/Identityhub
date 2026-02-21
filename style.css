@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #020721;
   max-width: 100%;
   margin: 0;
   padding: 0;
@@ -293,3 +293,41 @@ nav{
   height: auto;
 }
 
+/* why choose us  */
+
+.why{
+    height: auto;
+    padding-top: 50px;
+}
+.why-head h1{
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 500;
+    font-variant: var(--rubik);
+    line-height: 62px;
+    letter-spacing: -1px;
+}
+
+.why-head p{
+    color: #AFB3CA;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-variant: var(--rubik);
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+.why-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 38px;
+}
+
+.why-card{
+    background: linear-gradient(137.34deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
+    /* margin: 120px; */
+    margin: 120px 120px;
+}
