@@ -523,6 +523,196 @@ nav{
   line-height: 24px;
 }
 
+/* Pricing Section  */
+
+.pricing-header {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.pricing-header h2 {
+  font-size: 56px;
+  line-height: 76px;
+  letter-spacing: -1px;
+  color: #CAD1E9;
+  margin-bottom: 20px;
+  font-family: 'Rubik' sans-serif;
+}
+
+.pricing-header p {
+  color: #AFB3CA;
+  max-width: 600px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin: auto;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Toggle */
+
+.billing-toggle {
+  margin-top: 30px;
+  display: inline-flex;
+  background: linear-gradient(137.34deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
+  border-radius: 16px;
+  border: 1px solid;
+  padding: 6px;
+}
+
+.billing-toggle button {
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: #AFB3CA;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+
+.billing-toggle .active {
+  background: rgba(255,255,255,0.1);
+  color: #CAD1E9;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.pricing-container {
+  max-width: 1200px; /* controls width */
+  margin: 0 auto;    /* centers it */
+  padding: 0 100px;  /* left & right spacing like your design */
+}
+
+/* ===============================
+   CARD BASE
+================================= */
+
+.price-card {
+  background: linear-gradient(137.34deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
+
+  border-radius: 28px;
+  padding: 50px 40px;
+  border: 2px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Headings */
+
+.price-card h4 {
+  color: #9aa4d6;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.price-card h1 {
+  font-size: 56px;
+  color: #cfd3ff;
+  margin-bottom: 10px;
+}
+
+.gradient-price {
+    background: linear-gradient(90.63deg, #B67EFD 0.9%, #F088D2 55.08%, #FFAD8B 109.04%);
+color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.per {
+  color: #9aa4d6;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* ===============================
+   FEATURE LIST (IMAGE ICONS)
+================================= */
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+  text-align: left;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  color: #cfd3ff;
+  font-size: 14px;
+}
+
+.features-list li img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* ===============================
+   BUTTONS
+================================= */
+
+.btn,
+.btn-outline {
+    font-family: 'Rubik', sans-serif;
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: linear-gradient(90.63deg, #B67EFD 0.9%, #F088D2 55.08%, #FFAD8B 109.04%);
+
+}
+
+.btn {
+  background: rgba(255,255,255,0.08);
+  color: #cfd3ff;
+  border: 2px solid rgba(255,255,255,0.08);
+
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #ec4899;
+  color: #ec4899;
+}
+
+.note {
+  font-size: 13px;
+  color: #AFB3CA;
+}
+
+/* ===============================
+   FEATURED CARD (GRADIENT BORDER)
+================================= */
+
+.featured {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#050b2d, #050b2d) padding-box,
+    linear-gradient(135deg, #a855f7, #ec4899) border-box;
+}
+
+
+
+
+
 
 
 /* =========== RESPONSIVE. =========== */
