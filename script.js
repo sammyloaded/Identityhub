@@ -21,3 +21,7 @@ console.log(result1)
 let num2 = 507.7490;
 let result2 = num2.toPrecision(3);
 console.log(result2)
+
+// isNaN - Not a Number 
+console.log(isNaN('hello'))
+console.log(isNaN(50))
