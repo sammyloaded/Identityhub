@@ -863,11 +863,32 @@ color: transparent;
     grid-template-columns: 1fr;
   }
 
+  .pricing-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .price-card{
+    padding: 20px 24px;
+    border-radius: 20px;
+  }
+
   .pricing-header h2,
   .testimonial-header h2,
   .why-head h1 {
     font-size: 36px;
     line-height: 42px;
+  }
+
+  .footer-top{
+    flex-direction: column;
+  }
+
+  .footer-links{
+    flex-direction: column;
+  }
+
+  .footer-bottom{
+    gap: 25px;
   }
 
 }
