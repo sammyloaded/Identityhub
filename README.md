@@ -1,5 +1,3 @@
---
-
 # IdentityHub – SaaS Landing Page
 
 IdentityHub is a modern SaaS landing page built using **semantic HTML5** and **pure CSS**.
