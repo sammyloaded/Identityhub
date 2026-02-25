@@ -2,7 +2,16 @@
 
 let x = 10;
 let y = 50;
-let z = x + y;
+let p = 'Ade';
+let z = p + x + y;
+let o = x + y;
+let n = 100 / 'sam';
+let b = NaN;
+let c = 5;
+let d = b + c;
+console.log(d)
+console.log(o)
+console.log(n)
 console.log(z)
 
 // number 
