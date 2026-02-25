@@ -367,7 +367,7 @@ nav{
   line-height: 1.7;
   margin-bottom: 40px;
   font-family: "Roboto", sans-serif;
-  max-width: 480px;
+  max-width: 100%;
 }
 
 /* Image */
@@ -814,7 +814,7 @@ color: transparent;
 
 
 /* =========== RESPONSIVE. =========== */
-@media (max-width: 768px) {
+@media (max-width: 450px) {
 
   nav {
     flex-direction: row;
@@ -843,28 +843,48 @@ color: transparent;
     grid-template-columns: 1fr;
   }
 
-  .feature-card{
+  
+ .features-container {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    padding: 30px 20px;
+    
+  }
+
+  .feature-card p {
+    max-width: 100%;
+  }
+
+  .feature-img img {
+    max-width: 100%;
+  }
+
+  .full-width{
+    flex-direction: column;
+  }
+
+  /* .card-2{
     display: flex;
     flex-direction: column;
 
-  }
-
-  /* .features-container{
-    grid-template-columns: repeat(1fr);
   } */
-
-  .card-2{
-    display: flex;
-    flex-direction: column;
-
-  }
 
   .testimonial-grid {
     grid-template-columns: 1fr;
   }
 
+  .billing-toggle{
+    padding: 0px;
+  }
+
   .pricing-grid{
     grid-template-columns: 1fr;
+  }
+
+  .pricing-container{
+    padding: 0 50px;
   }
 
   .price-card{
@@ -889,6 +909,10 @@ color: transparent;
 
   .footer-bottom{
     gap: 25px;
+  }
+
+  .footer-container{
+    padding: 0px 30px;
   }
 
 }
