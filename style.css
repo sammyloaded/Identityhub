@@ -839,12 +839,16 @@ color: transparent;
     line-height: 42px;
   }
 
+  .wr-container{
+    flex-direction: column;
+  }
+
    .features-container {
     grid-template-columns: 1fr;
   }
 
   .full-width {
-    grid-column: span 1;   /* 🔥 THIS IS THE FIX */
+    grid-column: span 1;   
     flex-direction: column;
     text-align: center;
   }
