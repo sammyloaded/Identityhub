@@ -424,7 +424,6 @@ nav{
 
 /* Testimonials Section  */
 .testimonials {
-  background: #050b2d;
   padding: 120px 6%;
 }
 
@@ -460,7 +459,6 @@ nav{
   font-size: 16px;
 }
 
-/* Grid */
 
 .testimonial-grid {
   display: grid;
@@ -468,7 +466,7 @@ nav{
   gap: 30px;
 }
 
-/* Card */
+
 
 .testimonial-card {
   background: linear-gradient(
@@ -488,7 +486,7 @@ nav{
   border-color: rgba(120, 140, 255, 0.4);
 }
 
-/* Avatar + Name */
+
 
 .testimonial-top {
   display: flex;
@@ -513,7 +511,7 @@ nav{
   font-weight: 500;
 }
 
-/* Text */
+
 
 .testimonial-card p {
   color: #9aa4d6;
@@ -523,7 +521,8 @@ nav{
   line-height: 24px;
 }
 
-/* Pricing Section  */
+
+
 
 .pricing-header {
   text-align: center;
@@ -547,10 +546,9 @@ nav{
   letter-spacing: 0px;
   margin: auto;
   line-height: 24px;
-  font-family: 'Roboto', sans-serif;
 }
 
-/* Toggle */
+
 
 .billing-toggle {
   margin-top: 30px;
@@ -588,14 +586,10 @@ nav{
 }
 
 .pricing-container {
-  max-width: 1200px; /* controls width */
-  margin: 0 auto;    /* centers it */
-  padding: 0 100px;  /* left & right spacing like your design */
+  max-width: 1200px; 
+  margin: 0 auto;    
+  padding: 0 100px;  
 }
-
-/* ===============================
-   CARD BASE
-================================= */
 
 .price-card {
   background: linear-gradient(137.34deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
@@ -608,18 +602,18 @@ nav{
   margin-bottom: 50px;
 }
 
-/* Headings */
-
 .price-card h4 {
   color: #9aa4d6;
   margin-bottom: 20px;
   font-weight: 500;
+  font-family: 'Roboto', sans-serif;
 }
 
 .price-card h1 {
   font-size: 56px;
   color: #cfd3ff;
   margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .gradient-price {
@@ -636,9 +630,6 @@ color: transparent;
   margin-bottom: 30px;
 }
 
-/* ===============================
-   FEATURE LIST (IMAGE ICONS)
-================================= */
 
 .features-list {
   list-style: none;
@@ -653,6 +644,7 @@ color: transparent;
   gap: 12px;
   margin-bottom: 14px;
   color: #cfd3ff;
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
 }
 
@@ -662,9 +654,7 @@ color: transparent;
   object-fit: contain;
 }
 
-/* ===============================
-   BUTTONS
-================================= */
+
 
 .btn,
 .btn-outline {
@@ -698,9 +688,6 @@ color: transparent;
   color: #AFB3CA;
 }
 
-/* ===============================
-   FEATURED CARD (GRADIENT BORDER)
-================================= */
 
 .featured {
   border: 1px solid transparent;
@@ -709,6 +696,117 @@ color: transparent;
     linear-gradient(135deg, #a855f7, #ec4899) border-box;
 }
 
+/* Footer section  */
+/* ===============================
+   FOOTER
+================================= */
+
+.footer {
+  padding: 100px 0 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 168px;
+}
+
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+
+
+.footer-logo img {
+  width: 160px;
+  height: auto;
+}
+
+
+
+.footer-links {
+  display: flex;
+  gap: 93px;
+}
+
+.footer-col h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #CAD1E9;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.21px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin-bottom: 12px;
+
+}
+
+.footer-col a {
+  color: #CAD1E9;
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.21px;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.footer-col a:hover {
+  color: white;
+}
+
+
+.footer-divider {
+  margin: 80px 0 40px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+  flex-wrap: wrap;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #CAD1E9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  line-height: 0.21px;
+  transition: 0.3s;
+}
+
+.social img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.social:hover {
+  opacity: 0.2;
+}
 
 
 
@@ -716,27 +814,3 @@ color: transparent;
 
 
 /* =========== RESPONSIVE. =========== */
-
-
-@media (max-width: 1200px) {
-  .testimonial-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 900px) {
-  .testimonial-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .testimonial-header h2 {
-    font-size: 36px;
-  }
-}
-
-@media (max-width: 600px) {
-  .testimonial-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
