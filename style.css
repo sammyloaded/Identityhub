@@ -145,7 +145,8 @@ nav{
   padding: 13px 24px;
   border-radius: 16px;
   text-decoration: none;
-  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
  background: linear-gradient(90deg, #3aa0ff, #ff7ecb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -165,7 +166,8 @@ nav{
   border-radius: 16px;
   border: 1px solid #70717A;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 800;
+  font-family: 'Rubik', sans-serif;
   color: #cfd3ff;
   background: rgba(255, 255, 255, 0.05);
   display: flex;
