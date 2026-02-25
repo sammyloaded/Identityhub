@@ -73,9 +73,7 @@ nav{
     background-color: #B69EE0;
 }
 
-/* ===============================
-   HERO SECTION
-================================= */
+/* Hero Section  */
 
 .hero {
   background: #050b2d;
@@ -106,11 +104,11 @@ nav{
   font-size: 90px;
   line-height: 1.1;
   margin-bottom: 25px;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: -1.5px;
   line-height: 82px;
   font-style: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .gradient-text {
@@ -180,9 +178,6 @@ nav{
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* ===============================
-   RIGHT VISUAL SECTION
-================================= */
 
 .hero-visual {
   flex: 1;
@@ -190,7 +185,6 @@ nav{
   height: 600px;
 }
 
-/* ARC BACKGROUND (Linear Gradient) */
 .arc-bg {
   position: absolute;
   top: -100px;
@@ -207,7 +201,6 @@ nav{
   filter: blur(60px);
 }
 
-/* Lock Image */
 .lock-img {
   position: absolute;
   right: 0;
@@ -216,7 +209,6 @@ nav{
   z-index: 2;
 }
 
-/* Email Card Image */
 .email-img {
   position: absolute;
   right: 260px;
@@ -225,7 +217,6 @@ nav{
   z-index: 3;
 }
 
-/* User Card Image */
 .user-img {
   position: absolute;
   right: 150px;
@@ -234,9 +225,7 @@ nav{
   z-index: 3;
 }
 
-/* ==============================
-   WE REMOVE SECTION
-============================== */
+/* We remove section  */
 
 .wr {
   background: #020721;
@@ -261,7 +250,7 @@ nav{
 
 .wr-content h1 {
   font-size: 64px;
-  font-variant: var(--rubik);
+  font-family: 'Rubik', sans-serif;
   line-height: 62px;
   letter-spacing: -1.5px;
   font-weight: 700;
@@ -347,7 +336,6 @@ nav{
   overflow: hidden;
 }
 
-/* Headings */
 
 .feature-card h2 {
   font-size: 32px;
@@ -359,7 +347,6 @@ nav{
   font-family: "Rubik", sans-serif;
 }
 
-/* Paragraph */
 
 .feature-card p {
   font-size: 16px;
@@ -370,7 +357,6 @@ nav{
   max-width: 100%;
 }
 
-/* Image */
 
 .feature-img img {
   width: 100%;
