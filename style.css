@@ -62,7 +62,8 @@ nav{
     border-radius: 10px;
     border: 1px solid  #121212;
     background: linear-gradient(2.45deg, #21223C 7.4%, #0B0B26 98.31%);
-    font-variant: var(--rubik);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
     color: white;
     text-align: center;
     cursor: pointer;
@@ -429,7 +430,7 @@ nav{
   font-size: 56px;
   line-height: 76px;
   letter-spacing: -1px;
-  font-weight: 500;
+  font-weight: 900;
   font-family: 'Rubik' , sans-serif;
   color: #cfd3ff;
   margin-bottom: 20px;
@@ -518,11 +519,12 @@ nav{
 
 .pricing-header h2 {
   font-size: 56px;
+  font-family: 'Rubik', sans-serif;
   line-height: 76px;
   letter-spacing: -1px;
   color: #CAD1E9;
   margin-bottom: 20px;
-  font-family: 'Rubik' sans-serif;
+  font-weight: 900;
 }
 
 .pricing-header p {
